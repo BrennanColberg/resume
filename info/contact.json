@@ -1,0 +1,21 @@
+[
+	{
+		"title":"Cell Phone",
+		"text":"+1 (206) 658-3935"
+	},
+	{
+		"title":"Email",
+		"text":"bcolberg@uw.edu",
+		"link":"mailto:bcolberg@uw.edu"
+	},
+	{
+		"title":"GitHub",
+		"text":"@BrennanColberg",
+		"link":"https://github.com/BrennanColberg"
+	},
+	{
+		"title":"LinkedIn",
+		"text":"/in/BrennanColberg",
+		"link":"https://linkedin.com/in/BrennanColberg"
+	},
+]
