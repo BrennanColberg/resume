@@ -9,6 +9,11 @@
 		"link":"mailto:bcolberg@uw.edu"
 	},
 	{
+		"title":"Website",
+		"text":"brennancolberg.com",
+		"link":"https://www.brennancolberg.com"
+	},
+	{
 		"title":"GitHub",
 		"text":"@BrennanColberg",
 		"link":"https://github.com/BrennanColberg"
