@@ -1,0 +1,7 @@
+body {
+	/* 8.5" x 11" at 300 ppi */
+	width: 8.5in;
+	height: 11in;
+	margin: 0px;
+	border: 1px solid black;
+}
