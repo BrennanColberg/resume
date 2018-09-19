@@ -3,5 +3,55 @@ body {
 	width: 8.5in;
 	height: 11in;
 	margin: 0px;
-	border: 1px solid black;
+	padding: 0.75in;
+}
+
+body * {
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 0.65in;
+}
+
+h1, section {
+	margin-bottom: 0.5in;
+}
+
+section {
+	text-align: justify;
+}
+
+section div {
+	margin-top: 0.1in;
+}
+
+#links, 
+#contact,
+#languages {
+	float: right;
+	clear: right;
+	list-style: none;
+	text-align: right;
+}
+
+#links {
+	margin: 0.4in 0in;
+}
+
+#contact, #languages {
+	margin-bottom: 0.4in;
+	margin-left: 0.5in;
+}
+
+#experience {
+	width: 50%;
+	float: left;
+	margin-right: 0.5in;
+}
+
+#education,
+#awards {
+	text-align: center;
 }
