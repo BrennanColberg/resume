@@ -1,9 +1,16 @@
+/*** VIEW ON CHROME ON MACOS FOR PRINTING ***/
+/* google font imports */
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Space+Mono|Oswald|Ubuntu');
+
 body {
-	/* 8.5" x 11" at 300 ppi */
+	/* is one page! */
 	width: 8.5in;
 	height: 11in;
 	margin: 0px;
-	padding: 0.75in;
+	padding: 0.5in;
+	padding-top: 0.4in;
+	border: 1px solid black;
+	box-sizing: border-box;
 }
 
 body * {
@@ -12,11 +19,11 @@ body * {
 }
 
 h1 {
-	font-size: 0.65in;
+	margin-bottom: 0.14in
 }
 
-h1, section {
-	margin-bottom: 0.5in;
+section {
+	margin-bottom: 0.25in;
 }
 
 section {
@@ -24,7 +31,7 @@ section {
 }
 
 section div {
-	margin-top: 0.1in;
+	margin-top: 0.08in;
 }
 
 #links, 
@@ -37,21 +44,117 @@ section div {
 }
 
 #links {
-	margin: 0.4in 0in;
+	margin-top: 0.4in;
+	margin-bottom: 0.2in;
 }
 
 #contact, #languages {
-	margin-bottom: 0.4in;
-	margin-left: 0.5in;
+	margin-bottom: 0.2in;
+	margin-left: 0.3in;
 }
 
 #experience {
-	width: 50%;
+	width: 4in;
 	float: left;
-	margin-right: 0.5in;
+	margin-right: 0.4in;
 }
 
 #education,
 #awards {
 	text-align: center;
+}
+
+h1 {
+	font-family: "Space Mono", sans-serif;
+	font-size: 39pt;
+}
+
+h2 {
+	font-size: 18pt;
+	text-decoration: underline;
+	font-family: "Roboto", sans-serif;
+}
+section h2 {
+	text-align: center;
+}
+
+h3 {
+	font-family: "Lato";
+	font-size: 14.7pt;
+}
+h3 a {
+	font-family: "Oswald";
+	font-weight: normal;
+}
+
+h4 {
+	font-family: "Ubuntu";
+	font-size: 12pt;
+	margin-left: 0.24in;
+}
+
+p {
+	font-size: 11.8pt;
+	margin-left: 0.14in;
+}
+
+li {
+	font-size: 13pt;
+}
+
+a, .link {
+	color: inherit;
+}
+
+#projects {
+	color: dimgray;
+}
+
+#experience {
+	color: gray;
+}
+
+#education {
+	color: darkgray;
+}
+
+#awards {
+	color: darkgray;
+}
+
+#languages span {
+	font-weight: bold;
+}
+
+.java,
+.html,
+.css,
+.javascript,
+.php,
+.python {
+	font-family: "Ubuntu";
+}
+
+.java {
+	color: saddlebrown;
+}
+
+.html {
+	color: #c00;
+}
+
+.css {
+	color: darkmagenta;
+}
+
+.javascript {
+	color: #db0;
+}
+
+.php {
+	color: #00c;
+}
+
+.python {
+	color: #0ac;
 }
