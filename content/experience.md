@@ -24,5 +24,5 @@ Took initiative to learn as much as possible about the inner workings of the tea
 
 ## Inglemoor TSA
 ### Team Captain - Video Game Design/Programming
-### 11/2016 - 04/2018
+### 11/2016 - 03/2018
 Managed a changing set of team members over the course of two years, successfully evolving coordination methods and conforming to different game specifications. Distributed tasks dynamically according to skill level and speed, to enable efficient creation and refinement of large complex programs as a team.

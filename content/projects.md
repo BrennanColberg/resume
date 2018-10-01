@@ -15,7 +15,7 @@ Worked with end users to design, test, and iterate a successfully deployed web a
 ## Backus-Naur Sentence Generator
 ### [\[use it\]](https://students.washington.edu/bcolberg/grammar) [\[code\]](https://github.com/BrennanColberg/grammar) 
 ### PHP, JavaScript, HTML/CSS
-### 08/2018
+### 08/2018 - 09/2018
 Cooperated with multiple team members to separately design and implement different parts of a complex project. Implemented the backend of a basic Backus-Naur Form (BNF) machine grammar parser, within a tight timeframe.
 
 ## Carbon Cycle Simulator
@@ -24,7 +24,7 @@ Cooperated with multiple team members to separately design and implement differe
 ### 07/2018 - Present
 Designed and created an informational website built to emphasize the structure and function of the biological "Carbon Cycle", based on a lesson plan in which I found massive potential for improvement, and worked with teachers to have it put to use in local high school biology classrooms.
 
-## Online Professional Literature
+## Professional Resume
 ### [\[resume\]](https://resume.brennancolberg.com) [\[business card\]](https://business-card.brennancolberg.com) 
 ### HTML/CSS
 ### 09/2018 - Present
