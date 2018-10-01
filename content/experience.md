@@ -12,7 +12,7 @@ Designed and tested custom curricula for teaching intermediate mathematics, basi
 ## Art Coday for U.S. Senate
 ### Social Media Consultant
 ### 07/2018 - 08/2018
-Troubleshooted issues with political advertiser verification on preeminent social media platforms, and drafted a general localized social media campaign strategy that was never used due to the campagin's defeat in the Washington state primary.
+Troubleshooted issues with political advertiser verification on preeminent social media platforms, and drafted a general localized social media campaign strategy that was never used due to the campaign's defeat in the Washington state primary.
 
 ## Inglemoor Valhallabots (FRC #3268)
 ### President & Programming Lead
@@ -21,3 +21,8 @@ Organized and expanded the FIRST Robotics team at my high school, growing from 6
 ### Member
 ### 09/2015 - 06/2016
 Took initiative to learn as much as possible about the inner workings of the team and competition, despite active discouragement by seniors. Organized and managed our team's "pit" (workspace) during each competition.
+
+## Inglemoor TSA
+### Team Captain - Video Game Design/Programming
+### 11/2016 - 04/2018
+Managed a changing set of team members over the course of two years, successfully evolving coordination methods and conforming to different game specifications. Distributed tasks dynamically according to skill level and speed, to enable efficient creation and refinement of large complex programs as a team.

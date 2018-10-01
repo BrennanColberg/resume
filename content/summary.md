@@ -1,0 +1,1 @@
+A skilled programmer, natural leader, and constant learner, I want to make a difference in the world. Interested primarily in educational and social technologies, I seek to find and help both individuals and organizations with similar goals.

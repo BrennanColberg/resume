@@ -24,7 +24,7 @@ Cooperated with multiple team members to separately design and implement differe
 ### 07/2018 - Present
 Designed and created an informational website built to emphasize the structure and function of the biological "Carbon Cycle", based on a lesson plan in which I found massive potential for improvement, and worked with teachers to have it put to use in local high school biology classrooms.
 
-## Professional Literature
+## Online Professional Literature
 ### [\[resume\]](https://resume.brennancolberg.com) [\[business card\]](https://business-card.brennancolberg.com) 
 ### HTML/CSS
 ### 09/2018 - Present
