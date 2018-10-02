@@ -2,6 +2,18 @@
 /* google font imports */
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Space+Mono|Oswald|Ubuntu');
 
+:root {
+	--java-color: saddlebrown;
+	--html-color: #c00;
+	--css-color: darkmagenta;
+	--javascript-color: #db0;
+	--php-color: #45f;
+	--shell-color: #2d2;
+	--python-color: #0ac;
+	--swift-color: darkorange;
+	--cpp-color: #F04E7E;
+}
+
 body {
 	/* is one page! */
 	width: 8.5in;
@@ -133,34 +145,88 @@ a,
 	font-weight: bold;
 }
 
-.java {
-	color: saddlebrown;
+span.java {
+	color: var(--java-color);
 }
 
-.html {
-	color: #c00;
+span.html {
+	color: var(--html-color);
 }
 
-.css {
-	color: darkmagenta;
+span.css {
+	color: var(--css-color);
 }
 
-.javascript {
-	color: #db0;
+span.javascript {
+	color: var(--javascript-color);
 }
 
-.php {
-	color: #45f;
+span.php {
+	color: var(--php-color);
 }
 
-.shell {
-	color: #2d2;
+span.shell {
+	color: var(--shell-color);
 }
 
-.python {
-	color: #0ac;
+span.python {
+	color: var(--python-color);
 }
 
-.swift {
-	color: darkorange;
+span.swift {
+	color: var(--swift-color);
+}
+
+span.cpp {
+	color: var(--cpp-color);
+}
+
+div.language {
+	padding: 10px 15px;
+	border-radius: 25px;
+	border: 5px solid;
+	border-color: none;
+	height: auto;
+	display: inline-block;
+	float: right;
+	clear: right;
+	width: 3in;
+}
+
+div.language h3 {
+	text-align: center;
+	padding: 5px;
+}
+
+div.java {
+	border-color: var(--java-color);
+	background-color: rgba(var(--java-color), 1);
+}
+
+div.html {
+	border-color: var(--html-color);
+}
+
+div.javascript {
+	border-color: var(--javascript-color);
+}
+
+div.php {
+	border-color: var(--php-color);
+}
+
+div.shell {
+	border-color: var(--shell-color);
+}
+
+div.python {
+	border-color: var(--python-color);
+}
+
+div.swift {
+	border-color: var(--swift-color);
+}
+
+div.cpp {
+	border-color: var(--cpp-color);
 }
