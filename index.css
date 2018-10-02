@@ -33,7 +33,7 @@ section div {
 	margin-top: 0.08in;
 }
 
-#links, 
+#links,
 #contact,
 #languages {
 	float: right;
@@ -47,7 +47,8 @@ section div {
 	margin-bottom: 0.2in;
 }
 
-#contact, #languages {
+#contact,
+#languages {
 	margin-bottom: 0.2in;
 	margin-left: 0.3in;
 }
@@ -73,6 +74,7 @@ h2 {
 	text-decoration: underline;
 	font-family: "Roboto", sans-serif;
 }
+
 section h2 {
 	text-align: center;
 }
@@ -81,6 +83,7 @@ h3 {
 	font-family: "Lato";
 	font-size: 14.7pt;
 }
+
 h3 a {
 	font-family: "Oswald";
 	font-weight: normal;
@@ -101,7 +104,8 @@ li {
 	font-size: 13pt;
 }
 
-a, .link {
+a,
+.link {
 	color: inherit;
 }
 
@@ -121,17 +125,12 @@ a, .link {
 	color: darkgray;
 }
 
-#languages span {
-	font-weight: bold;
+#languages {
+	font-family: "Ubuntu";
 }
 
-.java,
-.html,
-.css,
-.javascript,
-.php,
-.python {
-	font-family: "Ubuntu";
+#languages span {
+	font-weight: bold;
 }
 
 .java {
@@ -156,4 +155,8 @@ a, .link {
 
 .python {
 	color: #0ac;
+}
+
+.swift {
+	color: darkorange;
 }
