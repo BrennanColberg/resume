@@ -150,7 +150,11 @@ a,
 }
 
 .php {
-	color: #00c;
+	color: #45f;
+}
+
+.shell {
+	color: #2d2;
 }
 
 .python {
