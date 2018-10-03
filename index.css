@@ -9,9 +9,7 @@
 	--javascript-color: #db0;
 	--php-color: #45f;
 	--shell-color: #2d2;
-	--python-color: #0ac;
 	--swift-color: darkorange;
-	--cpp-color: #F04E7E;
 }
 
 body {
@@ -169,16 +167,8 @@ span.shell {
 	color: var(--shell-color);
 }
 
-span.python {
-	color: var(--python-color);
-}
-
 span.swift {
 	color: var(--swift-color);
-}
-
-span.cpp {
-	color: var(--cpp-color);
 }
 
 div.language {
@@ -219,14 +209,6 @@ div.shell {
 	border-color: var(--shell-color);
 }
 
-div.python {
-	border-color: var(--python-color);
-}
-
 div.swift {
 	border-color: var(--swift-color);
-}
-
-div.cpp {
-	border-color: var(--cpp-color);
 }
