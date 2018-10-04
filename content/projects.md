@@ -24,7 +24,7 @@ Cooperated with multiple team members to separately design and implement differe
 ### 07/2018 - Present
 Designed and created an informational website built to emphasize the structure and function of the biological "Carbon Cycle", based on a lesson plan in which I found massive potential for improvement, and worked with teachers to have it put to use in local high school biology classrooms.
 
-## Professional Resume
+## Professional Literature
 ### [\[resume\]](https://resume.brennancolberg.com) [\[business card\]](https://business-card.brennancolberg.com) 
 ### HTML/CSS
 ### 09/2018 - Present
@@ -41,8 +41,3 @@ Improved graphics efficiencies through incorporating CSS transitions; strategica
 ### JavaScript, HTML/CSS
 ### 07/2018 - Present
 Constantly iterated and improved a simple monitor display (for use alongside the board game "Axis & Allies (1942)") into a web application that can track almost every aspect of an instance of said game, negating the need for paperwork or manual calculations. Worked with cookies to store game data for large pauses in time.
-
-## Binary Quiz
-### [\[use it]\](https://binary-quiz.brennancolberg.com)
-### 09/2018
-Brainstormed, drafted, and created a working proof-of-concept model for a smartphone application using code.org's "App Lab" service. Began exploring common app frameworks (XCode with Swift, and Android Studio with Java) with the goal of implementing and deploying a cross-platform app by the end of 2018.
