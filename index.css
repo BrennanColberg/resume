@@ -33,7 +33,7 @@ body,
 	--side-width: 2in;
 	--side-leftness: 0in;
 	--spacing-amount: 0.25in;
-	--effective-top: calc(var(--banner-lowness) + var(--spacing-amount) + var(--banner-height));
+	--effective-top: calc(var(--banner-lowness) + var(--banner-height));
 	--effective-left: calc(var(--side-leftness) + var(--side-width) + var(--spacing-amount))
 }
 
@@ -77,8 +77,6 @@ header {
 	text-align: center;
 }
 
-#name h1 {}
-
 #name p {
 	position: relative;
 	right: 0.1in;
@@ -91,7 +89,8 @@ aside {
 	height: 100%;
 	float: left;
 	margin: 0in var(--spacing-amount);
-	padding-top: var(--effective-top);
+	padding-top: calc(var(--effective-top) + 1.5 * var(--spacing-amount));
+	padding-bottom: var(--spacing-amount);
 	box-sizing: border-box;
 	margin-left: var(--side-leftness);
 	display: flex;
@@ -99,15 +98,15 @@ aside {
 	justify-content: space-between;
 }
 
-aside img {
-	width: 30%;
-	padding: 5%;
-	background-color: white;
+#qr {
+	width: 0.68in;
+	padding: 0.05in;
+	margin-top: 0.05in;
 	align-self: center;
 }
 
 aside > * {
-	margin: var(--spacing-amount);
+	margin: 0 var(--spacing-amount);
 }
 
 #languages p {
@@ -118,7 +117,7 @@ aside > * {
 }
 
 main {
-	padding-top: calc(var(--effective-top) - var(--spacing-amount) / 2);
+	padding-top: calc(var(--effective-top) + var(--spacing-amount) / 2);
 	padding-right: var(--spacing-amount);
 }
 
@@ -219,6 +218,11 @@ aside {
 	background-color: var(--dark-blue-color);
 	color: white;
 	box-shadow: 4px 0px 20px gray;
+}
+
+#qr {
+	background-color: white;
+	box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 1);
 }
 
 #languages p {
