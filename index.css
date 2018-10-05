@@ -15,10 +15,8 @@ body,
 	border: 1px dashed gray;
 }
 
-#banner,
-main,
-#side {
-	border: 1px solid red;
+#languages p {
+	border: 1px solid purple;
 }
 
 /***** VARIABLES *****/
@@ -33,7 +31,7 @@ main,
 	--swift-color: darkorange;
 
 	--banner-height: 1in;
-	--banner-lowness: 0.75in;
+	--banner-lowness: 0.5in;
 	--spacing-amount: 0.25in;
 	--effective-top: calc(var(--banner-lowness) + var(--spacing-amount) + var(--banner-height));
 }
@@ -99,6 +97,13 @@ body {
 
 #side > * {
 	margin: var(--spacing-amount);
+}
+
+#languages p {
+	text-align: center;
+	padding: calc(var(--spacing-amount) / 2);
+	margin: calc(var(--spacing-amount) / 2) 0px;
+	border-radius: calc(var(--spacing-amount));
 }
 
 main {
@@ -179,13 +184,19 @@ li {
 
 /***** COLORS & SHADOWS *****/
 
+#banner {
+	background-color: #d2d2d2;
+	color: #525252;
+}
+
 #side {
-	background-color: #31c3e7;
+	background-color: #48cadb;
+	color: #124367;
 	box-shadow: -5px 0px 20px gray;
 }
 
-#banner {
-	background-color: lightgray;
+#languages p {
+	color: white;
 }
 
 #picture {
@@ -228,29 +239,34 @@ span.swift {
 	color: var(--swift-color);
 }
 
-div.java {
-	border-color: var(--java-color);
-	background-color: rgba(var(--java-color), 1);
+p.java {
+	background-color: var(--java-color);
 }
 
-div.html {
-	border-color: var(--html-color);
+p.html {
+	background-color: var(--html-color);
 }
 
-div.javascript {
-	border-color: var(--javascript-color);
+p.css {
+	background-color: var(--css-color);
 }
 
-div.php {
-	border-color: var(--php-color);
+p.javascript {
+	background-color: var(--javascript-color);
 }
 
-div.shell {
-	border-color: var(--shell-color);
+p.php {
+	background-color: var(--php-color);
 }
 
-div.swift {
-	border-color: var(--swift-color);
+p.shell {
+	background-color: var(--shell-color);
 }
 
-/**/
+p.python {
+	background-color: var(--python-color);
+}
+
+p.swift {
+	background-color: var(--swift-color);
+}
