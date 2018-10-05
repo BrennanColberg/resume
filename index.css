@@ -2,6 +2,26 @@
 /* google font imports */
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Space+Mono|Oswald|Ubuntu');
 
+
+/***** SCAFFOLDING *****/
+
+body,
+#name,
+#contact,
+#links,
+#languages,
+#projects,
+#experience {
+	border: 1px dashed gray;
+}
+
+#top,
+main,
+#side {
+	border: 1px solid red;
+}
+
+/***** VARIABLES *****/
 :root {
 	--java-color: saddlebrown;
 	--html-color: #c00;
@@ -13,71 +33,99 @@
 	--swift-color: darkorange;
 }
 
-body {
-	/* is one page! */
-	width: 8.5in;
-	height: 11in;
-	margin: 0px;
-	padding: 0.55in;
-	padding-top: 0.4in;
-	box-sizing: border-box;
-	/* border: 1px solid green; */
-}
 
-body * {
+/***** LAYOUT *****/
+
+* {
 	padding: 0px;
 	margin: 0px;
 }
 
-section {
-	text-align: justify;
+body {
+	/* is one page! */
+	width: 8.5in;
+	height: 11in;
+	box-sizing: border-box;
+	/* border: 1px solid green; */
 }
 
-section div {
-	margin-top: 0.08in;
+#picture {
+	width: 1.5in;
+	height: 1.5in;
+	float: left;
+	position: absolute;
+	border: 1px solid blue;
+	border-radius: 1in;
+	left: 0.5in;
+	top: 0.5in;
 }
 
-#links,
-#contact,
-#languages {
-	float: right;
-	clear: right;
-	list-style: none;
-	text-align: right;
+#top {
+	width: 8.5in;
+	display: flex;
+	justify-content: flex-end;
+	top: 0.75in;
+	position: absolute;
 }
 
-#links {
-	margin-top: 0.3in;
-	margin-bottom: 0.2in;
-}
-
-#contact,
-#languages {
-	margin-bottom: 0.2in;
-	margin-left: 0.3in;
-}
-
-#experience {
-	margin-top: 0.25in;
-}
-
-#education,
-#awards {
+#name {
+	width: 70%;
 	text-align: center;
 }
 
-h1 {
-	font-family: "Roboto", sans-serif;
-	font-size: 46pt;
-	margin-bottom: 0.45in;
+#name h1 {}
+
+#name p {
+	position: relative;
+	right: 0.1in;
+	top: -0.08in;
 }
 
-#education {
+#side {
+	width: 2in;
+	clear: left;
+	height: 100%;
+	float: left;
+	margin: 0in 0.25in;
+	text-align: right;
+	padding-top: 2.25in;
+	box-sizing: border-box;
+}
+
+#side > * {
+	margin: 0.25in;
+}
+
+main {
+	padding-top: 2in;
+}
+
+#links {}
+
+#contact {}
+
+#languages {}
+
+#experience {}
+
+.info h4 {}
+
+.info p {}
+
+/***** FONT & APPEARANCE SPECIFICS *****/
+
+#name h1 {
+	font-family: "Roboto", sans-serif;
+	font-size: 46pt;
+}
+
+#name p {
 	font-family: "Ubuntu";
-	position: absolute;
-	top: 1.1in;
-	left: 0.6in;
 	font-size: 14pt;
+}
+
+#side * {
+	list-style: none;
 }
 
 h2 {
@@ -103,20 +151,14 @@ h3 a {
 h4 {
 	font-family: "Ubuntu";
 	font-size: 12pt;
-	margin-left: 0.24in;
 }
 
 p {
 	font-size: 11.5pt;
-	margin-left: 0.14in;
 }
 
 li {
 	font-size: 13pt;
-}
-
-a {
-	color: inherit;
 }
 
 #languages {
@@ -127,21 +169,11 @@ a {
 	font-weight: bold;
 }
 
-div.language {
-	padding: 10px 15px;
-	border-radius: 25px;
-	border: 5px solid;
-	border-color: none;
-	height: auto;
-	display: inline-block;
-	float: right;
-	clear: right;
-	width: 3in;
-}
 
-div.language h3 {
-	text-align: center;
-	padding: 5px;
+/***** COLORS *****/
+
+a {
+	color: inherit;
 }
 
 span.java {
@@ -200,3 +232,5 @@ div.shell {
 div.swift {
 	border-color: var(--swift-color);
 }
+
+/**/
