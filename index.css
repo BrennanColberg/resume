@@ -15,7 +15,7 @@ body,
 	border: 1px dashed gray;
 }
 
-#top,
+#banner,
 main,
 #side {
 	border: 1px solid red;
@@ -31,6 +31,11 @@ main,
 	--shell-color: #2d2;
 	--python-color: #0ac;
 	--swift-color: darkorange;
+
+	--banner-height: 1in;
+	--banner-lowness: 0.75in;
+	--spacing-amount: 0.25in;
+	--effective-top: calc(var(--banner-lowness) + var(--spacing-amount) + var(--banner-height));
 }
 
 
@@ -56,14 +61,15 @@ body {
 	position: absolute;
 	border-radius: 1in;
 	left: 0.5in;
-	top: 0.5in;
+	top: calc(var(--banner-lowness) - 0.25in);
 }
 
-#top {
+#banner {
 	width: 8.5in;
 	display: flex;
 	justify-content: flex-end;
-	top: 0.75in;
+	top: var(--banner-lowness);
+	height: var(--banner-height);
 	position: absolute;
 }
 
@@ -85,18 +91,19 @@ body {
 	clear: left;
 	height: 100%;
 	float: left;
-	margin: 0in 0.25in;
+	margin: 0in var(--spacing-amount);
 	text-align: right;
-	padding-top: 2.25in;
+	padding-top: var(--effective-top);
 	box-sizing: border-box;
 }
 
 #side > * {
-	margin: 0.25in;
+	margin: var(--spacing-amount);
 }
 
 main {
-	padding-top: 2in;
+	padding-top: var(--effective-top);
+	padding-right: var(--spacing-amount);
 }
 
 #links {}
@@ -177,7 +184,7 @@ li {
 	box-shadow: -5px 0px 20px gray;
 }
 
-#top {
+#banner {
 	background-color: lightgray;
 }
 
