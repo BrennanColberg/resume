@@ -15,10 +15,6 @@ body,
 	border: 1px dashed gray;
 }
 
-#languages p {
-	border: 1px solid purple;
-}
-
 /***** VARIABLES *****/
 :root {
 	--java-color: saddlebrown;
@@ -140,6 +136,11 @@ main {
 	list-style: none;
 }
 
+#languages {
+	font-family: "Ubuntu";
+	font-size: 12pt;
+}
+
 h2 {
 	font-size: 18pt;
 	text-decoration: underline;
@@ -150,31 +151,27 @@ section h2 {
 	text-align: center;
 }
 
-h3 {
+main h3 {
 	font-family: "Roboto";
 	font-size: 15pt;
 }
 
-h3 a {
+main h3 a {
 	font-family: "Oswald";
 	font-weight: normal;
 }
 
-h4 {
+main h4 {
 	font-family: "Ubuntu";
 	font-size: 12pt;
 }
 
-p {
+main p {
 	font-size: 11.5pt;
 }
 
 li {
 	font-size: 13pt;
-}
-
-#languages {
-	font-family: "Ubuntu";
 }
 
 #languages span {
@@ -197,6 +194,7 @@ li {
 
 #languages p {
 	color: white;
+	box-shadow: 0px 0px 15px gray;
 }
 
 #picture {
