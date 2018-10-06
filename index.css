@@ -130,7 +130,7 @@ main {
 }
 
 main h3 {
-	margin-top: 0.1in;
+	margin-top: 0.08in;
 }
 
 main h4 {
@@ -201,6 +201,7 @@ main h4 {
 main p {
 	font-size: 11pt;
 	text-align: justify;
+	font-family: "Georgia", serif;
 }
 
 li {
