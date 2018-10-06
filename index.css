@@ -26,6 +26,7 @@ body,
 	--python-color: #0ac;
 	--swift-color: darkorange;
 
+	--dark-gray-color: #525252;
 	--dark-blue-color: #064254;
 
 	--banner-height: 1in;
@@ -64,16 +65,18 @@ body {
 }
 
 header {
-	width: 8.5in;
+	width: calc(8.5in - var(--side-width) / 2);
 	display: flex;
 	justify-content: flex-end;
 	top: var(--banner-lowness);
 	height: var(--banner-height);
+	margin-left: calc(var(--side-width) / 2);
 	position: absolute;
+	box-sizing: border-box;
 }
 
 #name {
-	width: 73.5%;
+	width: calc(8.4in - var(--side-width) - var(--spacing-amount));
 	text-align: center;
 }
 
@@ -98,22 +101,26 @@ aside {
 	justify-content: space-between;
 }
 
-#qr {
-	width: 0.68in;
-	padding: 0.05in;
-	margin-top: 0.05in;
-	align-self: center;
-}
-
 aside > * {
 	margin: 0 var(--spacing-amount);
 }
 
 #languages p {
 	text-align: center;
-	padding: calc(var(--spacing-amount) / 2);
-	margin: calc(var(--spacing-amount) / 2) 0px;
-	border-radius: calc(var(--spacing-amount));
+	padding: calc(var(--spacing-amount) / 3);
+	margin: calc(var(--spacing-amount) / 3) 0px;
+	border-radius: calc(var(--spacing-amount) / 3);
+}
+
+#contact h2 {
+	margin-top: 0.08in;
+}
+
+#qr {
+	width: 1in;
+	padding: 0.04in;
+	margin-top: 0.1in;
+	align-self: center;
 }
 
 main {
@@ -211,7 +218,7 @@ a {
 
 header {
 	background-color: #d2d2d2;
-	color: #525252;
+	color: var(--dark-gray-color);
 }
 
 aside {
@@ -222,7 +229,7 @@ aside {
 
 #qr {
 	background-color: white;
-	box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 8px 3px rgba(255, 255, 255, 1);
 }
 
 #languages p {
@@ -239,8 +246,8 @@ main {
 }
 
 main a {
-	color: blue;
-	border-color: blue;
+	color: var(--dark-blue-color);
+	border-color: var(--dark-blue-color);
 }
 
 span.java {
