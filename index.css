@@ -108,7 +108,7 @@ aside > * {
 #languages p {
 	text-align: center;
 	padding: calc(var(--spacing-amount) / 3);
-	margin: calc(var(--spacing-amount) / 3) 0px;
+	margin-top: calc(var(--spacing-amount) / 3);
 	border-radius: calc(var(--spacing-amount) / 3);
 }
 
@@ -170,12 +170,9 @@ aside {
 	text-align: center;
 }
 
-#languages {
+#languages p {
 	font-family: "Ubuntu";
-	font-size: 12pt;
-}
-
-#languages span {
+	font-size: 13pt;
 	font-weight: bold;
 }
 
