@@ -46,6 +46,10 @@ body,
 	margin: 0px;
 }
 
+.hidden {
+	display: none !important;
+}
+
 body {
 	/* is one page! */
 	width: 8.5in;
@@ -59,9 +63,10 @@ body {
 	height: 1.5in;
 	float: left;
 	position: absolute;
-	border-radius: 1in;
 	left: calc(var(--spacing-amount) + var(--side-leftness));
 	top: calc(var(--banner-lowness) - 0.25in);
+	/* curve starts at banner's bottom edge */
+	border-radius: calc((1.5in - var(--banner-height)) / 2);
 }
 
 header {
