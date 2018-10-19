@@ -129,6 +129,19 @@ aside > * {
 	border-radius: 0.05in;
 }
 
+#fact p {
+	font-size: 11.7pt;
+}
+
+#skills ul {
+	text-align: left;
+	margin-left: 0.15in;
+}
+
+#skills li {
+	font-size: 11.5pt;
+}
+
 main {
 	padding-top: calc(var(--effective-top) + var(--spacing-amount));
 	padding-right: var(--spacing-amount);
