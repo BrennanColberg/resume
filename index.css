@@ -1,7 +1,6 @@
 /*** VIEW ON CHROME ON MACOS FOR PRINTING ***/
 /* google font imports */
-@import url('https://fonts.googleapis.com/css?family=Lato|Roboto|Space+Mono|Oswald|Ubuntu');
-
+@import url("https://fonts.googleapis.com/css?family=Lato|Roboto|Space+Mono|Oswald|Ubuntu");
 
 /***** SCAFFOLDING *****
 
@@ -35,9 +34,12 @@ body,
 	--side-leftness: 0in;
 	--spacing-amount: 0.25in;
 	--effective-top: calc(var(--banner-lowness) + var(--banner-height));
-	--effective-left: calc(var(--side-leftness) + var(--side-width) + var(--spacing-amount))
-}
+	--effective-left: calc(
+		var(--side-leftness) + var(--side-width) + var(--spacing-amount)
+	);
 
+	--hidden-display: none;
+}
 
 /***** LAYOUT *****/
 
@@ -47,7 +49,7 @@ body,
 }
 
 .hidden {
-	display: none !important;
+	display: var(--hidden-display) !important;
 }
 
 body {
@@ -225,7 +227,6 @@ main p {
 li {
 	font-size: 13pt;
 }
-
 
 /***** COLORS & SHADOWS *****/
 
