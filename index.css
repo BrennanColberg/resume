@@ -167,6 +167,7 @@ main a {
 	padding-top: 0;
 	border: 1px dashed;
 	border-radius: 0.05in;
+	margin-left: 0.05in;
 }
 
 #experience {
