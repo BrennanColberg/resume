@@ -24,6 +24,7 @@ body,
 	--shell-color: #2d2;
 	--python-color: #0ac;
 	--swift-color: darkorange;
+	--sql-color: #d834eb;
 
 	--dark-gray-color: #525252;
 	--dark-blue-color: #064254;
@@ -161,7 +162,7 @@ main p {
 	margin-left: calc(var(--effective-left) + 0.1in);
 }
 
-main a {
+main h3 a {
 	float: right;
 	padding: 0.04in 0.05in;
 	padding-top: 0;
@@ -208,7 +209,7 @@ main h3 {
 	font-size: 15pt;
 }
 
-main a {
+main h3 a {
 	font-family: "Oswald";
 	font-weight: normal;
 	font-size: 12pt;
@@ -299,6 +300,10 @@ span.python {
 
 span.swift {
 	color: var(--swift-color);
+}
+
+span.sql {
+	color: var(--sql-color);
 }
 
 p.java {
